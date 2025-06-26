@@ -11,14 +11,6 @@ export default function AboutUs() {
     const navigate = useNavigate();
   return (
     <>
-    {/* <nav className="navbar">
-        <div className="logo">💼 Budget Book</div>
-        <div className="nav-buttons">
-          <Button type="link" onClick={() => navigate('/aboutpage')}>About Us</Button>
-          <Button type="link" onClick={() => navigate('/login')}>Login</Button>
-          <Button type="link" onClick={() => navigate('/register')}>Register</Button>
-        </div>
-      </nav> */}
       <Navbar/>
     <div className="about-container">
       <div className="gradient-overlay"></div>
