@@ -1,6 +1,7 @@
 
 import '../../styles/style.scss'
 import { Briefcase } from 'lucide-react';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Footer() {
   // const navigate = useNavigate();
@@ -12,9 +13,12 @@ export default function Footer() {
           <p>Helping you track, save, and manage your finances effortlessly.</p>
         </div>
         <div className="footer-links">
-          <a href="/">Home</a>
+          <Link to="/" >Home</Link>
+          <Link to="/login" >Login</Link>
+          <Link to="/register" >Register</Link>
+          {/* <a href="/">Home</a>
           <a href="/login">Login</a>
-          <a href="/register">Register</a>
+          <a href="/register">Register</a> */}
         </div>
       </div>
       <div className="footer-bottom">
